@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Captured traffic / evidence
+evidence/
+imports/
+external-evidence/
+*.raw
+*.har
+
+# Research state
+state/
+experiments/
+backups/
+reconstruction/
+candidate-state/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
